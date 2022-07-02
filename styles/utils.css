@@ -1,0 +1,11 @@
+/* .clear-fix::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  float: none !important;
+} */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
